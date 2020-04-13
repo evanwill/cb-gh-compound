@@ -28,11 +28,11 @@ To add an image from the collection into an interpretive page, use the `item-fig
 
 The base include requires one option, an `objectid` of an item from the collection:
 
-`{% raw %}{% include feature/item-figure.html objectid="postcards_test_304" %}{% endraw %}`
+`{% raw %}{% include feature/item-figure.html objectid="postcards_test_469" %}{% endraw %}`
 
 This include will become: 
 
-{% include feature/item-figure.html objectid="postcards_test_304" %}
+{% include feature/item-figure.html objectid="postcards_test_469" %}
 
 Three further options allow you to style it. 
 
@@ -42,11 +42,11 @@ Three further options allow you to style it.
 
 For example: 
 
-`{% raw %}{% include feature/item-figure.html objectid="postcards_test_304" width="50" float="left" caption="Example 50% width and floating left" %}{% endraw %}`
+`{% raw %}{% include feature/item-figure.html objectid="postcards_test_469" width="50" float="left" caption="Example 50% width and floating left" %}{% endraw %}`
 
 Becomes: 
 
-{% include feature/item-figure.html objectid="postcards_test_304" width="50" float="left" caption="Example 50% width and floating left" %}
+{% include feature/item-figure.html objectid="postcards_test_469" width="50" float="left" caption="Example 50% width and floating left" %}
 
 You will probably want to "clear" the float at some point in your text. 
 Add `<div class="clearfix"></div>` on it's own line to do so. 
